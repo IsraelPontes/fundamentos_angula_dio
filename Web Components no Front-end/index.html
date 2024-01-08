@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/card.css">
     <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
 
     <title>Portal de Noticías Galaticas</title>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card_left">
-                <span>Israel Pontes</span>
-                <h1>Darth Vader Contrata Devs</h1>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes.</p>
-            </div>
-            <div class="card_hright">
-                <img src="./assets/imag/darth_vader.jpeg" alt="Darth Vader">
-            </div>
-        </div>
-        <card-news></card-news>
-    </div>
+    <card-news 
+        autor="Israel"
+        title="Dart Vader Contrata"
+        link-url="*"
+        photo="./assets/imag/darth_vader.jpeg"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."   
+        >
+    </card-news>
 </body>
 </html>
